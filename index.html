@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/main.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="static/media/icons/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/media/icons/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/media/icons/favicons/favicon-16x16.png">
+    <link rel="manifest" href="static/media/icons/favicons/site.webmanifest">
+    <link rel="mask-icon" href="static/media/icons/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>Home | Gentse Feesten 2019</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <section class="header__mobile">
+                <nav class="header__mobile-background">
+                    <button class="header__mobile-close-btn"><svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180"><defs><style>.cls-1{fill:#fff;}</style></defs><path class="cls-1" d="M108.53,90,165,33.51a13.17,13.17,0,0,0-18.62-18.62L89.92,71.39l-56.5-56.5A13.17,13.17,0,0,0,14.83,33.52h0L71.32,90l-56.5,56.49a13.16,13.16,0,0,0,18.6,18.62h0l56.5-56.5,56.5,56.5A13.16,13.16,0,1,0,165,146.49Z"/></svg></button>
+                    <ul class="header__mobile-navigation">
+                        <li><a class="link--underline" href="index.html">Home</a></li>
+                        <li><a class="link--underline" href="events/search.html">Zoeken</a></li>
+                        <li><button class="header__mobile-program link--underline" href="">Programma<svg class="program__chevron_up" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>chevron-up</title><path d="M15.7 10l8.261 8.26c0.294 0.275 0.477 0.665 0.477 1.097 0 0.828-0.672 1.5-1.5 1.5-0.433 0-0.823-0.183-1.097-0.477l-0.001-0.001-6.14-6.138-6.14 6.139c-0.271 0.272-0.647 0.44-1.061 0.44-0.829 0-1.5-0.672-1.5-1.5 0-0.414 0.168-0.789 0.439-1.061l8.261-8.26z"></path></svg></button></li>
+                            <ul class="header__mobile-event-days">
+                                <li><a class="link--underline--thin" href="events/day.html?day=19">Vrijdag 19 juli</a></li>
+                                <li><a class="link--underline--thin" href="events/day.html?day=20">Zaterdag 20 juli</a></li>
+                                <li><a class="link--underline--thin" href="events/day.html?day=21">Zondag 21 juli</a></li>
+                                <li><a class="link--underline--thin" href="events/day.html?day=22">Maandag 22 juli</a></li>
+                                <li><a class="link--underline--thin" href="events/day.html?day=23">Dinsdag 23 juli</a></li>
+                                <li><a class="link--underline--thin" href="events/day.html?day=24">Woensdag 24 juli</a></li>
+                                <li><a class="link--underline--thin" href="events/day.html?day=25">Donderdag 25 juli</a></li>
+                                <li><a class="link--underline--thin" href="events/day.html?day=26">Vrijdag 26 juli</a></li>
+                                <li><a class="link--underline--thin" href="events/day.html?day=27">Zaterdag 27 juli</a></li>
+                                <li><a class="link--underline--thin" href="events/day.html?day=28">Zondag 28 juli</a></li>
+                                <li><a class="link--underline--thin" href="events/day.html?day=19">Programma</a></li>
+                            </ul>
+                        <li><a class="link--underline" href="news.html">Nieuws</a></li>
+                        <li><a class="link--underline" href="">Info</a></li> 
+                    </ul>  
+                </nav>
+            </section>
+
+            <section class="header__container wrapper padding">
+                <div class="header__top">
+                    <a href="index.html"><img class="logo" src="static/media/logo/logo.svg" alt="Logo van de Gentse Feesten"></a>            
+                    <button class="header__hamburger-btn"><svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180"><defs><style>.cls-1{fill:#fff;}</style></defs><path class="cls-1" d="M164.49,77.67H54.67a12.33,12.33,0,0,0,0,24.66H164.49a12.33,12.33,0,0,0,0-24.66Zm-.83,61.66H16A12.34,12.34,0,0,0,16,164H163.66a12.34,12.34,0,0,0,0-24.67Zm0-123.33H16a12.34,12.34,0,0,0,0,24.67H163.66a12.34,12.34,0,0,0,0-24.67Z"/></svg></button>
+                    <form class="header__search" action="events/search.html">
+                        <input id="header__search-input" type="search" placeholder="Doorzoek het programma..." autocomplete="off" name="search" value="" size="30" maxlength="128">           
+                        <button id="header__search-btn" type="submit"><svg class="svg-loop" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>search</title><path d="M19.371 17.952l1.997 1.997c0.272-0.11 0.587-0.174 0.917-0.174 0.693 0 1.321 0.281 1.776 0.736l3.704 3.704c0.454 0.454 0.735 1.082 0.735 1.775 0 1.386-1.124 2.51-2.51 2.51-0.693 0-1.321-0.281-1.775-0.735v0l-3.705-3.705c-0.455-0.454-0.736-1.082-0.736-1.776 0-0.33 0.064-0.645 0.179-0.933l-0.006 0.017-2.053-2.053c-1.474 1.098-3.332 1.758-5.343 1.758-0.005 0-0.010 0-0.015 0h0.001c-4.991 0-9.037-4.046-9.037-9.037s4.046-9.037 9.037-9.037v0c0 0 0 0 0.001 0 4.991 0 9.037 4.046 9.037 9.037 0 2.267-0.835 4.339-2.214 5.926l0.009-0.011zM12.538 18.062c3.328 0 6.025-2.697 6.025-6.025s-2.697-6.025-6.025-6.025v0c-3.328 0-6.025 2.697-6.025 6.025s2.697 6.025 6.025 6.025v0z"></path></svg></button>
+                    </form>    
+                    <div class="header__language">
+                        <button class="header__language-btn">
+                            <span>NL</span>
+                            <svg class="fill_white language__chevron_up" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>chevron-up</title><path d="M15.7 10l8.261 8.26c0.294 0.275 0.477 0.665 0.477 1.097 0 0.828-0.672 1.5-1.5 1.5-0.433 0-0.823-0.183-1.097-0.477l-0.001-0.001-6.14-6.138-6.14 6.139c-0.271 0.272-0.647 0.44-1.061 0.44-0.829 0-1.5-0.672-1.5-1.5 0-0.414 0.168-0.789 0.439-1.061l8.261-8.26z"></path></svg>
+                            <ul class="header__language-dropdown">
+                                <li class="link--underline">EN</li>
+                                <li class="link--underline">FR</li>
+                            </ul>
+                        </button>
+                    </div>
+                </div>
+                <nav class="header__nav">
+                    <ul class="header__navigation">
+                        <li><a href="index.html" class="header__navigation-underline--fixed">Home</a></li>
+                        <li><a href="events/day.html?day=19" class="header__navigation-underline">Programma</a></li>
+                        <li><a href="news.html" class="header__navigation-underline">Nieuws</a></li>
+                        <li><a href="" class="header__navigation-underline">Info</a></li> 
+                    </ul>
+                </nav>
+                <div class="header__bottom">
+                    <div class="header__title">
+                        <svg id="gf19" width="107px" height="26px" viewBox="0 0 107 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title>gf-19</title><desc>Created with Sketch.</desc><defs></defs><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="gf-19" fill="#FFF"><path d="M1.43231,25.9355 L2.9512,18.6476 L0,18.6476 L0,16.099 L3.47443,16.099 L4.76746,9.88808 L0,9.88808 L0,7.33953 L5.2907,7.33953 L6.80959,0 L9.42953,0 L7.91064,7.33953 L13.4103,7.33953 L14.9291,0 L17.566,0 L16.0471,7.33953 L19.068,7.33953 L19.068,9.88808 L15.5239,9.88808 L14.2139,16.099 L19.068,16.099 L19.068,18.6476 L13.6888,18.6476 L12.1699,25.9355 L9.55187,25.9355 L11.0538,18.6476 L5.56926,18.6476 L4.05037,25.9355 L1.43231,25.9355 Z M6.09437,16.099 L11.5771,16.099 L12.887,9.88808 L7.38552,9.88808 L6.09437,16.099 Z" id="Shape" fill-rule="nonzero"></path><path d="M21.3457,13.2455 C21.3457,5.71235 27.0317,0.491699 33.8977,0.491699 C40.2631,0.491699 43.8749,4.13565 45.1623,7.84967 L41.5147,9.28622 C40.2989,6.06273 38.0459,3.75023 33.8262,3.75023 C29.4276,3.75023 25.1721,6.97372 25.1721,13.2105 C25.1721,19.3071 28.6766,22.8109 33.6831,22.8109 C38.5108,22.8109 41.1929,19.5874 41.4074,16.6442 L32.7534,16.6442 L32.7534,13.4207 L45.0908,13.4207 L45.0908,25.5088 L41.622,25.5088 C41.622,23.6167 42.3372,21.6546 43.0167,20.2881 L41.3359,20.2881 C40.6565,22.1101 38.5108,25.9993 32.6461,25.9993 C26.0304,26.0012 21.3457,21.094 21.3457,13.2455 Z" id="Shape" fill-rule="nonzero"></path><polygon id="Shape" fill-rule="nonzero" points="50.9912 0.980957 69.1934 0.980957 69.1934 4.20445 54.5673 4.20445 54.5673 11.9829 66.0822 11.9829 66.0822 15.1713 54.5673 15.1713 54.5673 25.5075 50.9912 25.5075"></polygon><path d="M86.7979592,22.2228469 L86.7979592,25.6378418 L73.7933827,25.6378418 L73.7933827,22.2228469 L78.5191837,22.2228469 L78.5191837,4.76842857 C78.33521,5.04438913 78.0305081,5.34909102 77.6050689,5.68254337 C77.1796297,6.01599571 76.702455,6.33794488 76.1735306,6.64840051 C75.6446062,6.95885614 75.0984424,7.21756529 74.535023,7.42453571 C73.9716035,7.63150614 73.4599343,7.7349898 73,7.7349898 L73,4.2165102 C73.6209113,4.2165102 74.2533114,4.04978653 74.8972194,3.71633418 C75.5411274,3.38288184 76.1275348,3.01493994 76.6564592,2.61249745 C77.1853836,2.21005496 77.6223146,1.83636397 77.9672653,1.49141327 C78.312216,1.14646256 78.496187,0.950993427 78.5191837,0.905 L82.4171071,0.905 L82.4171071,22.2228469 L86.7979592,22.2228469 Z M89.0056327,9.45973469 C89.0056327,8.26390559 89.2355963,7.1485817 89.6955306,6.11372959 C90.1554649,5.07887748 90.7821159,4.1820191 91.5755026,3.42312755 C92.3688892,2.664236 93.3059912,2.06633042 94.3868367,1.62939286 C95.4676823,1.1924553 96.6289989,0.973989796 97.8708214,0.973989796 C99.2276275,0.973989796 100.457933,1.22120076 101.561776,1.7156301 C102.665618,2.21005944 103.60272,2.92294687 104.37311,3.85431378 C105.1435,4.78568068 105.741405,5.91825183 106.166844,7.25206122 C106.592284,8.58587061 106.805,10.1036309 106.805,11.8053878 C106.805,14.1510525 106.586534,16.2034784 106.149597,17.962727 C105.712659,19.7219756 105.086008,21.1994923 104.269625,22.3953214 C103.453242,23.5911505 102.470147,24.4880089 101.320311,25.0859235 C100.170476,25.683838 98.8941771,25.9827908 97.4913776,25.9827908 C95.9046043,25.9827908 94.4615822,25.620598 93.1622679,24.8962015 C91.8629535,24.1718051 90.8108697,23.1542157 90.0059847,21.8434031 L92.2481531,19.49775 C92.7770775,20.463612 93.5129613,21.2282412 94.4558265,21.7916607 C95.3986918,22.3550802 96.4220302,22.6367857 97.5258724,22.6367857 C99.250626,22.6367857 100.630408,21.9124001 101.66526,20.4636071 C102.700112,19.0148142 103.229029,16.9681374 103.252026,14.3235153 C102.769095,15.3583674 102.015963,16.1747385 100.99261,16.7726531 C99.9692559,17.3705676 98.8021902,17.6695204 97.4913776,17.6695204 C96.2955484,17.6695204 95.1802246,17.456804 94.1453724,17.0313648 C93.1105203,16.6059256 92.213662,16.0252673 91.4547704,15.2893724 C90.6958789,14.5534776 90.0979733,13.6853647 89.6610357,12.6850077 C89.2240982,11.6846506 89.0056327,10.6095704 89.0056327,9.45973469 Z M97.8363265,4.18201531 C97.1234284,4.18201531 96.4565337,4.31999352 95.8356224,4.59595408 C95.2147112,4.87191465 94.6685474,5.25135473 94.1971148,5.73428571 C93.7256822,6.2172167 93.3519912,6.77487864 93.0760306,7.40728827 C92.80007,8.03969789 92.6620918,8.71234167 92.6620918,9.4252398 C92.6620918,10.1381379 92.80007,10.8050326 93.0760306,11.4259439 C93.3519912,12.0468551 93.7256822,12.5930189 94.1971148,13.0644515 C94.6685474,13.5358842 95.2204603,13.9095752 95.8528699,14.1855357 C96.4852795,14.4614963 97.1579233,14.5994745 97.8708214,14.5994745 C98.5837196,14.5994745 99.2563633,14.4614963 99.888773,14.1855357 C100.521183,13.9095752 101.073095,13.5416333 101.544528,13.081699 C102.015961,12.6217647 102.389652,12.075601 102.665612,11.4431913 C102.941573,10.8107817 103.079551,10.1496361 103.079551,9.45973469 C103.079551,8.74683657 102.941573,8.0684437 102.665612,7.42453571 C102.389652,6.78062773 102.010212,6.2172167 101.527281,5.73428571 C101.04435,5.25135473 100.486688,4.87191465 99.8542781,4.59595408 C99.2218684,4.31999352 98.5492247,4.18201531 97.8363265,4.18201531 Z" id="19-copy"></path></g></g></svg>
+                        <svg id="ontdek" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 476.5 100.2" style="enable-background:new 0 0 476.5 100.2;" xml:space="preserve"><style type="text/css">.st0{fill:#ffffff;}</style><g id="Laag_2"><g id="Laag_1-2"><path class="fill_white" class="st0" d="M0,63c0-22.4,15.4-37.1,36.8-37.1S73.6,40.6,73.6,63c0,22.8-15.4,37.2-36.8,37.2S0,84.6,0,63z M52.9,63.3c0-14.4-6.6-21.7-16.1-21.7s-16.1,7.3-16.1,21.7s6.6,21.1,16.1,21.1S52.9,77.7,52.9,63.3z"></path><path class="fill_white" class="st0" d="M88.2,28h17.9c-0.1,4.6-3.1,10.6-6.9,16.1h8.7c3.2-9.9,10.2-18.2,21.4-18.2c15.4,0,23.8,10.2,23.8,25.8V98h-19.9V55.4c0-9.2-4.3-13.2-11.2-13.2c-13.9,0-14,15.1-14,22.5V98H88.2V28z"></path><path class="fill_white" class="st0" d="M178.9,79.7V43.1h-14.7V28h14.7V6h19.9v22H217v15.1h-18.2V76c0,4.2,1.8,6.2,6.2,6.2h15.1V98h-23.4C185.4,98,178.9,90.6,178.9,79.7z"></path><path class="fill_white" class="st0" d="M227.5,63c0-22.1,11.8-37.1,28.8-37.1c14.4,0,20.2,9.4,23.2,16.5h8.4c-3.5-5.5-7.4-12-7.4-28.7V0h19.9v98h-18.1c0-4.9,3.2-10.2,6-14.3H280c-3.5,7-8.8,16.5-23.7,16.5C239.3,100.2,227.5,85.1,227.5,63z M281.4,63c0-14.8-6.7-22.1-16.7-22.1c-9.2,0-16.4,5.7-16.4,22.1s7.1,22.1,16.4,22.1C274.5,85.1,281.4,77.8,281.4,63z"></path><path class="fill_white" class="st0" d="M315.1,62.9c0-22,15.1-37,35.4-37c23.5,0,35.8,18.5,33.9,41.9H335c0.6,12.3,7.1,17.4,15.7,17.4c9,0,13.3-5.6,16.2-12.2l17.8,6.9c-3.9,9-12.7,20.4-34,20.4C329.1,100.2,315.1,85.8,315.1,62.9z M364.8,53.8c-0.8-8.7-5.8-13.6-14.3-13.6c-8,0-13.4,4.8-14.8,13.6H364.8z"></path><path class="fill_white" class="st0" d="M429.6,69l-10.2,9.8V98h-19.9V0h19.9v30.9c0,14-3.8,19.2-10.1,24.4l5.3,5.7l32.9-33h24.4l-28.6,27.7L476.5,98h-25.1L429.6,69z"></path></g></g></svg>
+                    </div>
+                    <ul class="header__calendar">
+                        <li class="header__calendar-day" ><a href="events/day.html?day=19">
+                            <span class="day_short">Vr</span>
+                            <p class="day_long">19 Jul</p>
+                        </a></li>
+                        <li class="header__calendar-day"><a href="events/day.html?day=20">
+                            <span class="day_short">Za</span>
+                            <p class="day_long">20 Jul</p>
+                        </a></li>
+                        <li class="header__calendar-day"><a href="events/day.html?day=21">
+                            <span class="day_short">Zo</span>
+                            <p class="day_long">21 Jul</p>
+                        </a></li>
+                        <li class="header__calendar-day"><a href="events/day.html?day=22">
+                            <span class="day_short">Ma</span>
+                            <p class="day_long">22 Jul</p>
+                        </a></li>
+                        <li class="header__calendar-day"><a href="events/day.html?day=23">
+                            <span class="day_short">Di</span>
+                            <p class="day_long">23 Jul</p>
+                        </a></li>
+                        <li class="header__calendar-day"><a href="events/day.html?day=24">
+                            <span class="day_short">Wo</span>
+                            <p class="day_long">24 Jul</p>
+                        </a></li>
+                        <li class="header__calendar-day"><a href="events/day.html?day=25">
+                            <span class="day_short">Do</span>
+                            <p class="day_long">25 Jul</p>
+                        </a></li>
+                        <li class="header__calendar-day"><a href="events/day.html?day=26">
+                            <span class="day_short">Vr</span>
+                            <p class="day_long">26 Jul</p>
+                        </a></li>
+                        <li class="header__calendar-day"><a href="events/day.html?day=27">
+                            <span class="day_short">Za</span>
+                            <p class="day_long">27 Jul</p>
+                        </a></li>
+                        <li class="header__calendar-day"><a href="events/day.html?day=28">
+                            <span class="day_short">Zo</span>
+                            <p class="day_long">28 Jul</p>
+                        </a></li>
+                    </ul>
+                </div>
+            </section> 
+        </div>
+
+        <div class="header__info padding">
+            <svg class="gf2019" width="107px" height="26px" viewBox="0 0 107 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title>gf-19</title><desc>Created with Sketch.</desc><defs></defs><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="gf-19" fill="#000000"><path d="M1.43231,25.9355 L2.9512,18.6476 L0,18.6476 L0,16.099 L3.47443,16.099 L4.76746,9.88808 L0,9.88808 L0,7.33953 L5.2907,7.33953 L6.80959,0 L9.42953,0 L7.91064,7.33953 L13.4103,7.33953 L14.9291,0 L17.566,0 L16.0471,7.33953 L19.068,7.33953 L19.068,9.88808 L15.5239,9.88808 L14.2139,16.099 L19.068,16.099 L19.068,18.6476 L13.6888,18.6476 L12.1699,25.9355 L9.55187,25.9355 L11.0538,18.6476 L5.56926,18.6476 L4.05037,25.9355 L1.43231,25.9355 Z M6.09437,16.099 L11.5771,16.099 L12.887,9.88808 L7.38552,9.88808 L6.09437,16.099 Z" id="Shape" fill-rule="nonzero"></path><path d="M21.3457,13.2455 C21.3457,5.71235 27.0317,0.491699 33.8977,0.491699 C40.2631,0.491699 43.8749,4.13565 45.1623,7.84967 L41.5147,9.28622 C40.2989,6.06273 38.0459,3.75023 33.8262,3.75023 C29.4276,3.75023 25.1721,6.97372 25.1721,13.2105 C25.1721,19.3071 28.6766,22.8109 33.6831,22.8109 C38.5108,22.8109 41.1929,19.5874 41.4074,16.6442 L32.7534,16.6442 L32.7534,13.4207 L45.0908,13.4207 L45.0908,25.5088 L41.622,25.5088 C41.622,23.6167 42.3372,21.6546 43.0167,20.2881 L41.3359,20.2881 C40.6565,22.1101 38.5108,25.9993 32.6461,25.9993 C26.0304,26.0012 21.3457,21.094 21.3457,13.2455 Z" id="Shape" fill-rule="nonzero"></path><polygon id="Shape" fill-rule="nonzero" points="50.9912 0.980957 69.1934 0.980957 69.1934 4.20445 54.5673 4.20445 54.5673 11.9829 66.0822 11.9829 66.0822 15.1713 54.5673 15.1713 54.5673 25.5075 50.9912 25.5075"></polygon><path d="M86.7979592,22.2228469 L86.7979592,25.6378418 L73.7933827,25.6378418 L73.7933827,22.2228469 L78.5191837,22.2228469 L78.5191837,4.76842857 C78.33521,5.04438913 78.0305081,5.34909102 77.6050689,5.68254337 C77.1796297,6.01599571 76.702455,6.33794488 76.1735306,6.64840051 C75.6446062,6.95885614 75.0984424,7.21756529 74.535023,7.42453571 C73.9716035,7.63150614 73.4599343,7.7349898 73,7.7349898 L73,4.2165102 C73.6209113,4.2165102 74.2533114,4.04978653 74.8972194,3.71633418 C75.5411274,3.38288184 76.1275348,3.01493994 76.6564592,2.61249745 C77.1853836,2.21005496 77.6223146,1.83636397 77.9672653,1.49141327 C78.312216,1.14646256 78.496187,0.950993427 78.5191837,0.905 L82.4171071,0.905 L82.4171071,22.2228469 L86.7979592,22.2228469 Z M89.0056327,9.45973469 C89.0056327,8.26390559 89.2355963,7.1485817 89.6955306,6.11372959 C90.1554649,5.07887748 90.7821159,4.1820191 91.5755026,3.42312755 C92.3688892,2.664236 93.3059912,2.06633042 94.3868367,1.62939286 C95.4676823,1.1924553 96.6289989,0.973989796 97.8708214,0.973989796 C99.2276275,0.973989796 100.457933,1.22120076 101.561776,1.7156301 C102.665618,2.21005944 103.60272,2.92294687 104.37311,3.85431378 C105.1435,4.78568068 105.741405,5.91825183 106.166844,7.25206122 C106.592284,8.58587061 106.805,10.1036309 106.805,11.8053878 C106.805,14.1510525 106.586534,16.2034784 106.149597,17.962727 C105.712659,19.7219756 105.086008,21.1994923 104.269625,22.3953214 C103.453242,23.5911505 102.470147,24.4880089 101.320311,25.0859235 C100.170476,25.683838 98.8941771,25.9827908 97.4913776,25.9827908 C95.9046043,25.9827908 94.4615822,25.620598 93.1622679,24.8962015 C91.8629535,24.1718051 90.8108697,23.1542157 90.0059847,21.8434031 L92.2481531,19.49775 C92.7770775,20.463612 93.5129613,21.2282412 94.4558265,21.7916607 C95.3986918,22.3550802 96.4220302,22.6367857 97.5258724,22.6367857 C99.250626,22.6367857 100.630408,21.9124001 101.66526,20.4636071 C102.700112,19.0148142 103.229029,16.9681374 103.252026,14.3235153 C102.769095,15.3583674 102.015963,16.1747385 100.99261,16.7726531 C99.9692559,17.3705676 98.8021902,17.6695204 97.4913776,17.6695204 C96.2955484,17.6695204 95.1802246,17.456804 94.1453724,17.0313648 C93.1105203,16.6059256 92.213662,16.0252673 91.4547704,15.2893724 C90.6958789,14.5534776 90.0979733,13.6853647 89.6610357,12.6850077 C89.2240982,11.6846506 89.0056327,10.6095704 89.0056327,9.45973469 Z M97.8363265,4.18201531 C97.1234284,4.18201531 96.4565337,4.31999352 95.8356224,4.59595408 C95.2147112,4.87191465 94.6685474,5.25135473 94.1971148,5.73428571 C93.7256822,6.2172167 93.3519912,6.77487864 93.0760306,7.40728827 C92.80007,8.03969789 92.6620918,8.71234167 92.6620918,9.4252398 C92.6620918,10.1381379 92.80007,10.8050326 93.0760306,11.4259439 C93.3519912,12.0468551 93.7256822,12.5930189 94.1971148,13.0644515 C94.6685474,13.5358842 95.2204603,13.9095752 95.8528699,14.1855357 C96.4852795,14.4614963 97.1579233,14.5994745 97.8708214,14.5994745 C98.5837196,14.5994745 99.2563633,14.4614963 99.888773,14.1855357 C100.521183,13.9095752 101.073095,13.5416333 101.544528,13.081699 C102.015961,12.6217647 102.389652,12.075601 102.665612,11.4431913 C102.941573,10.8107817 103.079551,10.1496361 103.079551,9.45973469 C103.079551,8.74683657 102.941573,8.0684437 102.665612,7.42453571 C102.389652,6.78062773 102.010212,6.2172167 101.527281,5.73428571 C101.04435,5.25135473 100.486688,4.87191465 99.8542781,4.59595408 C99.2218684,4.31999352 98.5492247,4.18201531 97.8363265,4.18201531 Z" id="19-copy"></path></g></g></svg>
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 476.5 100.2" style="enable-background:new 0 0 476.5 100.2;" xml:space="preserve"><style type="text/css">.st0{fill:#000000;}</style><g id="Laag_2"><g id="Laag_1-2"><path class="st0" d="M0,63c0-22.4,15.4-37.1,36.8-37.1S73.6,40.6,73.6,63c0,22.8-15.4,37.2-36.8,37.2S0,84.6,0,63z M52.9,63.3c0-14.4-6.6-21.7-16.1-21.7s-16.1,7.3-16.1,21.7s6.6,21.1,16.1,21.1S52.9,77.7,52.9,63.3z"></path><path class="st0" d="M88.2,28h17.9c-0.1,4.6-3.1,10.6-6.9,16.1h8.7c3.2-9.9,10.2-18.2,21.4-18.2c15.4,0,23.8,10.2,23.8,25.8V98h-19.9V55.4c0-9.2-4.3-13.2-11.2-13.2c-13.9,0-14,15.1-14,22.5V98H88.2V28z"></path><path class="st0" d="M178.9,79.7V43.1h-14.7V28h14.7V6h19.9v22H217v15.1h-18.2V76c0,4.2,1.8,6.2,6.2,6.2h15.1V98h-23.4C185.4,98,178.9,90.6,178.9,79.7z"></path><path class="st0" d="M227.5,63c0-22.1,11.8-37.1,28.8-37.1c14.4,0,20.2,9.4,23.2,16.5h8.4c-3.5-5.5-7.4-12-7.4-28.7V0h19.9v98h-18.1c0-4.9,3.2-10.2,6-14.3H280c-3.5,7-8.8,16.5-23.7,16.5C239.3,100.2,227.5,85.1,227.5,63z M281.4,63c0-14.8-6.7-22.1-16.7-22.1c-9.2,0-16.4,5.7-16.4,22.1s7.1,22.1,16.4,22.1C274.5,85.1,281.4,77.8,281.4,63z"></path><path class="st0" d="M315.1,62.9c0-22,15.1-37,35.4-37c23.5,0,35.8,18.5,33.9,41.9H335c0.6,12.3,7.1,17.4,15.7,17.4c9,0,13.3-5.6,16.2-12.2l17.8,6.9c-3.9,9-12.7,20.4-34,20.4C329.1,100.2,315.1,85.8,315.1,62.9z M364.8,53.8c-0.8-8.7-5.8-13.6-14.3-13.6c-8,0-13.4,4.8-14.8,13.6H364.8z"></path><path class="st0" d="M429.6,69l-10.2,9.8V98h-19.9V0h19.9v30.9c0,14-3.8,19.2-10.1,24.4l5.3,5.7l32.9-33h24.4l-28.6,27.7L476.5,98h-25.1L429.6,69z"></path></g></g></svg>
+        </div>
+    </header>
+
+    <main>
+        <section class="calendar calendar__background">
+                <ul class="calendar__container">
+                    <li class="calendar__day"><a class="calendar__date" href="events/day.html?day=19">
+                        <span class="day_short">Vr</span>
+                        <p class="day_long">19 Jul</p>
+                    </a></li>
+                    <li class="calendar__day"><a class="calendar__date" href="events/day.html?day=20">
+                        <span class="day_short">Za</span>
+                        <p class="day_long">20 Jul</p>
+                    </a></li>
+                    <li class="calendar__day"><a class="calendar__date" href="events/day.html?day=21">
+                        <span class="day_short">Zo</span>
+                        <p class="day_long">21 Jul</p>
+                    </a></li>
+                    <li class="calendar__day"><a class="calendar__date" href="events/day.html?day=22">
+                        <span class="day_short">Ma</span>
+                        <p class="day_long">22 Jul</p>
+                    </a></li>
+                    <li class="calendar__day"><a class="calendar__date" href="events/day.html?day=23">
+                        <span class="day_short">Di</span>
+                        <p class="day_long">23 Jul</p>
+                    </a></li>
+                    <li class="calendar__day"><a class="calendar__date" href="events/day.html?day=24">
+                        <span class="day_short">Wo</span>
+                        <p class="day_long">24 Jul</p>
+                    </a></li>
+                    <li class="calendar__day"><a class="calendar__date" href="events/day.html?day=25">
+                        <span class="day_short">Do</span>
+                        <p class="day_long">25 Jul</p>
+                    </a></li>
+                    <li class="calendar__day"><a class="calendar__date" href="events/day.html?day=26">
+                        <span class="day_short">Vr</span>
+                        <p class="day_long">26 Jul</p>
+                    </a></li>
+                    <li class="calendar__day"><a class="calendar__date" href="events/day.html?day=27">
+                        <span class="day_short">Za</span>
+                        <p class="day_long">27 Jul</p>
+                    </a></li>
+                    <li class="calendar__day"><a class="calendar__date" href="events/day.html?day=28">
+                        <span class="day_short">Zo</span>
+                        <p class="day_long">28 Jul</p>
+                    </a></li>
+                </ul>
+        </section>
+
+        <section class="events random_events wrapper padding"></section>
+
+        <section class="wrapper padding">
+            <div class="news"></div>
+            <a class="link link--white" href="news.html">Bekijk alle nieuwsberichten</a>
+        </section>
+
+        <section class="">
+            <figure class="carousel wrapper wrapper--nopadding article__figure">
+                <img class="carousel__img" src="static/media/images/carousel.jpg" alt="">
+                <div>
+                    <figcaption class="article__figcaption--white">
+                        <div class="figcaption__arrow">
+                            <img class="reverse" src="static/media/icons/arrow-right.svg" alt="">
+                            <img src="static/media/icons/arrow-right.svg" alt="">
+                        </div>
+                        1/10
+                    </figcaption>
+                </div>
+            </figure>
+        </section>
+    </main>
+
+    <footer>
+        <section class="newsletter padding wrapper wrapper--small">
+            <h2 class="h2--black ">Blijf op de hoogte</h2>
+            <p>Abonneer je op de&nbsp;nieuwsbrief van de Gentse Feesten</p>
+            <p>De stad Gent zal de persoonsgegevens die u invult met respect voor uw <a class="link--grey" href="">privacy</a> behandelen.</p>
+            <form action="">
+                <label for="email">E-mailadres</label><br>
+                <input type="email" id="email" pattern=".+@globex\.com" size="30" required>
+                <button class="button--black" type="submit">Inschrijven</button>            
+            </form>
+        </section>
+
+        <section class="socials">
+            <div class="socials__background padding">
+                <div class="socials__container wrapper padding">
+                    <svg class="socials__logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 414 164"><g fill="#000" fill-rule="nonzero"><g stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width=".26"><path d="M49.18.13c18 0 30 8.06 30.54 20.11H69.18c-.59-7.1-7.91-11.31-19.82-11.31-12.5 0-20.85 7-20.85 18.26 0 11.26 8.23 18.19 20.67 18.19 11.24 0 19.82-4.59 21.08-12.28H41.41v-7.69h39.12v27.66h-8.58l.74-12h-.67c-4.73 9.69-13.68 13.16-23.07 13.16-18.63 0-31-10.8-31-27.06C17.95 10.91 30.38.13 49.18.13zM91.45 1.31h49.91v8.8h-39.41v11.31H137v8.13h-35.05v14.64h39.41v8.87H91.45zM152.23 1.31h9.54l38.75 37.27V1.31h10.5v51.76h-9.61L162.74 15.8v37.27h-10.5V1.31zM240.81 10.11h-22.92v-8.8h56.42v8.8h-23v42.96h-10.5zM276.97 36.43h10.94c-.07 5.4 6.51 9 17.3 9 12.2 0 18.93-2.22 18.93-7.1 0-14-45.77 2.22-45.77-21.81 0-10.57 11.17-16.34 27.21-16.34 16.86 0 28 7.1 28 17.82h-10.69c0-5.47-6.51-9-17-9-10.72 0-16.86 2.22-16.86 6.66 0 13 45.7-2.07 45.7 22.26 0 10.8-11.46 16.42-29.06 16.42-17.6 0-28.85-7.33-28.7-17.91zM343.88 1.31h49.91v8.8h-39.41v11.31h35.05v8.13h-35.05v14.64h39.41v8.87h-49.91zM.13 70.11H47.6v8.8H10.63v11.68h33.35v8.13H10.63v23.15H.13zM56.18 70.11h49.91v8.8H66.68v11.31h35.05v8.13H66.68v14.64h39.41v8.87H56.18zM116.22 70.11h49.91v8.8h-39.41v11.31h35.05v8.13h-35.05v14.64h39.41v8.87h-49.91zM173.38 105.24h10.94c-.07 5.4 6.51 9 17.3 9 12.2 0 18.93-2.22 18.93-7.1 0-14-45.77 2.22-45.77-21.81 0-10.57 11.17-16.34 27.21-16.34 16.86 0 27.95 7.1 28 17.82H219.3c0-5.47-6.51-9-17-9-10.72 0-16.86 2.22-16.86 6.66 0 13 45.7-2.07 45.7 22.26 0 10.8-11.46 16.42-29.06 16.42-17.6 0-28.85-7.34-28.7-17.91zM254.94 78.91h-22.92v-8.8h56.42v8.8h-23v42.96h-10.5zM294.49 70.11h49.91v8.8h-39.41v11.31h35.05v8.13h-35.05v14.64h39.41v8.87h-49.91zM354.53 70.11h9.54l38.75 37.27V70.11h10.5v51.76h-9.61l-38.68-37.26v37.27h-10.5z"/></g><path d="M274.24 150.48l-7.68 4.75v-3.06l9-4.58h1.82v15.28h-3.1zM293.61 155.06c0 4.76-3.47 7.81-8.77 7.81a11 11 0 01-4.39-.85l.91-1.69a7.42 7.42 0 003.48.67 5.73 5.73 0 006.37-4.89 5.61 5.61 0 000-.71v-.68a6.81 6.81 0 01-5.3 2c-3.65 0-6.21-1.87-6.21-4.59 0-2.72 2.74-4.75 6.4-4.75 4.77.19 7.51 2.93 7.51 7.68zm-3.11-2.89c0-1.36-1.64-2.88-4.38-2.88-2.38 0-4 1.19-4 2.88s1.64 2.89 4.2 2.89c2.56 0 4.18-1.19 4.18-2.89zM304.58 156.42v1.36h-5.67v-1.36zM310.61 161.17c.18-5.6 13.7-5.6 13.7-8.66 0-1.7-1.64-2.37-5.66-2.37a19.14 19.14 0 00-7.5 1.35v-2.54a23.82 23.82 0 018-1.19c5.48 0 8.4 1.19 8.4 4.24 0 5.95-12.24 5.27-13.7 8.33h13.34v2.54h-16.58v-1.7zM346.06 158.46c0 2.71-3.29 4.41-8.59 4.41s-8.59-1.7-8.59-4.41c0-1.7 1.28-2.89 3.84-3.57-2-.68-2.92-1.7-2.92-3.23 0-2.54 3.1-4.07 7.86-4.07s7.85 1.53 7.85 4.07c0 1.53-1.09 2.55-3.1 3.23 2.19.68 3.65 1.87 3.65 3.57zm-2.56.34c0-1.7-2.19-2.72-5.66-2.72s-5.67 1-5.67 2.72c0 1.72 2 2.71 5.67 2.71s5.66-1.02 5.66-2.71zm-10.6-6.8c0 1.53 1.83 2.38 4.94 2.38 3.11 0 4.93-.85 4.93-2.38 0-1.53-2-2.37-4.93-2.37-2.93 0-4.94.85-4.94 2.37zM355.57 155.74h3.29c0 3.57 1.46 4.92 4.57 4.92 3.11 0 4.56-1.52 4.56-4.92v-5.09h-10.23v-2.72h13.52v7.64c0 5.6-3.1 7.47-7.85 7.47s-7.86-1.87-7.86-7.3zM374.57 154.89v-7h3.29v7.68c0 3.4 1.65 5.09 5.12 5.09s5.12-1.69 5.12-5.09v-7.64h3.29v7c0 6.28-3.11 8.32-8.41 8.32-5.3 0-8.41-1.91-8.41-8.36zM394.31 147.93h3.29v12.4h11v2.54h-14.42v-14.94zM410.03 147.93h3.29v14.94h-3.29z"/></g></svg>
+                    <span class="socials__text">Volg de Gentse Feesten op alle sociale media kanalen</span>
+                    <div class="socials__icons">
+                        <a class="class= socials__icon" href=""><img class="invert" src="static/media/icons/twitter.svg" alt="twitter"></a>
+                        <a class="class= socials__icon" href=""><img class="invert" src="static/media/icons/facebook.svg" alt="facebook"></a>
+                        <a class="class= socials__icon" href=""><img class="invert" src="static/media/icons/flickr.svg" alt="flickr"></a>
+                        <a class="class= socials__icon" href=""><img class="invert" src="static/media/icons/youtube.svg" alt="youtube"></a>
+                    </div>
+                </div>
+            </div>    
+        </section>
+    </footer>
+</body>
+
+<script src="static/js/services.js"></script>
+<script src="static/js/main.js"></script>
+<script src="static/js/specific/home.js"></script>
+
+</html>

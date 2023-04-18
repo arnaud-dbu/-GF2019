@@ -42,7 +42,7 @@
 
       this.$programBtn.addEventListener("click", () => {
         setTimeout(() => {
-          this.$programEventDays.classList.toggle("js-expanded");
+          // this.$programEventDays.classList.toggle("js-expanded");
         }, 200);
         this.$chevronUpProgram.classList.toggle("rotate");
       }), false;

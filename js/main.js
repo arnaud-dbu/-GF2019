@@ -44,7 +44,7 @@
         setTimeout(() => {
           this.$programEventDays.classList.toggle("js-expanded");
         }, 200);
-        this.$chevronUpProgram.classList.toggle("rotate");
+        // this.$chevronUpProgram.classList.toggle("rotate");
       }), false;
     },
   }
